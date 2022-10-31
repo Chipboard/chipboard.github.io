@@ -1,7 +1,36 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Chipboard</h1>
-<p>A portfolio in the making</p>
-</body>
-</html>
+
+    <!-- ======== TAB TITLE ======== -->
+    <head>
+        <meta charset="UTF-8">
+        <title>Chipboard's Portfolio</title>
+        <link rel="icon" href="Logo.png">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <!-- ======== PAGE BODY ======== -->
+    <body id="body">
+        <canvas id="glCanvas" width="640" height="480"></canvas>
+        <h1 class="text" id ="header">Chipboard</h1>
+        <p class="text">Development Highlight Portfolio</p>
+
+        <!-- ======== VERTEX SHADER ======== -->
+        <script id="2d-vertex-shader" type="x-shader/x-vertex">// 
+            attribute vec2 a_position;
+              void main() {
+                gl_Position = vec4(a_position, 0, 1);
+              }
+            // ]]></script>
+        
+        <!-- ======== FRAGMENT SHADER ======== -->
+        <script id="2d-fragment-shader" type="x-shader/x-fragment">// 
+            void main() {
+                gl_FragColor = vec4(gl_FragCoord.x / 640.0, gl_FragCoord.y / 480.0, 0, 1);
+              }
+            // ]]></script>
+
+        <script type="text/javascript" src="render.js"></script>
+    </body>
+</html}
