@@ -23,7 +23,7 @@ h1 {
 }
 
 #body {
-    background: url('background.png');
+    background: url('background.jpg');
     background-repeat: repeat;
     background-size: 150% 150%;
     background-attachment: fixed;
