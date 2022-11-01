@@ -15,13 +15,13 @@ h1 {
 .blinkHeader {
     animation: header infinite 3s;
     text-align: center;
-    font-size: 1000%;
+    font-size: 10vh;
 }
 
 .gradientText {
     color: rgb(213, 225, 247);
     background-size: 100%;
-    font-size: 300%;
+    font-size: 4vh;
 }
 
 #body {
@@ -37,11 +37,18 @@ h1 {
 .skillSlot {
     animation: header infinite 3s;
     text-align: center;
-    font-size: 1000%;
+    font-size: 10vh;
     background-image: linear-gradient(90deg, #00000000, #26113a, #00000000);
     margin: 0%;
     padding: 0%;
     background-size: 100% auto;
+}
+
+/*============ 1080p ============*/
+@media screen and (max-width: 1920px) {
+    :root {
+        --backgroundScale: 1.5;
+    }
 }
 
 /*============ MOBILE ============*/
