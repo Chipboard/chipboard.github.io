@@ -1,31 +1,124 @@
-h1 {
-    text-align: center;
-    font-size: 1000%;
-}
-
 p {
+    font-family: monospace;
     text-align: center;
     font-size: 200%;
 }
 
-.text {
-    color: rgb(213, 225, 247);
-    font-family:monospace;
+h1 {
+    font-family: monospace;
 }
 
-#ChipboardLogo {
-    width: 25%;
-    height: auto;
+.blinkHeader {
+    animation: header infinite 3s;
+    text-align: center;
+    font-size: 1000%;
 }
 
-#header {
-    height: auto;
-    width: 100%;
+.gradientText {
+    background-image: linear-gradient(45deg, rgb(213, 225, 247), rgb(81, 99, 134));
+    background-size: 100%;
+    background-clip: text;
+    color: transparent;
+    font-size: 300%;
 }
 
 #body {
-    background: linear-gradient(#3b2f46, #13171b);
-    background-repeat: no-repeat;
+    background: url('background.png');
+    background-repeat: repeat;
+    background-size: 150% 150%;
     background-attachment: fixed;
-    height:max-content;
+    height: max-content;
+    animation: backgroundKeys infinite 120s;
+}
+
+.skillSlot {
+    animation: header infinite 3s;
+    text-align: center;
+    font-size: 1000%;
+    background-image: linear-gradient(90deg, #00000000, #26113a, #00000000);
+    margin: 0%;
+    padding: 0%;
+    background-size: 100% auto;
+}
+
+@keyframes backgroundKeys {
+
+    /*============ CENTER ============*/
+    0% {
+        background-position-x: 50%;
+        background-position-y: 50%;
+        background-size: 150% 150%;
+    }
+
+    /*============ RIGHT ============*/
+    15% {
+        background-position-x: 100%;
+        background-position-y: 50%;
+        background-size: 150% 150%;
+    }
+
+    /*============ CENTER ============*/
+    30% {
+        background-position-x: 50%;
+        background-position-y: 50%;
+        background-size: 150% 150%;
+    }
+
+    /*============ LEFT ============*/
+    45% {
+        background-position-x: 0%;
+        background-position-y: 50%;
+        background-size: 150% 150%;
+    }
+
+    /*============ CENTER ============*/
+    60% {
+        background-position-x: 50%;
+        background-position-y: 50%;
+        background-size: 150% 150%;
+    }
+
+    /*============ ZOOM ============*/
+    80% {
+        background-position-x: 50%;
+        background-position-y: 50%;
+        background-size: 100% 100%;
+    }
+
+    /*============ CENTER ============*/
+    100% {
+        background-position-x: 50%;
+        background-position-y: 50%;
+        background-size: 150% 150%;
+    }
+}
+
+#centered {}
+
+@keyframes body {
+    0% {
+        color: rgb(213, 225, 247);
+    }
+
+    50% {
+        color: rgb(81, 99, 134);
+    }
+
+    100% {
+        color: rgb(213, 225, 247);
+    }
+}
+
+@keyframes header {
+    0% {
+        color: rgb(213, 225, 247);
+    }
+
+    50% {
+        color: rgb(81, 99, 134);
+    }
+
+    100% {
+        color: rgb(213, 225, 247);
+    }
 }
