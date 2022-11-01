@@ -41,6 +41,31 @@ h1 {
     background-size: 100% auto;
 }
 
+/*============ MOBILE ============*/
+@media screen and (max-width: 700px) {
+    .blinkHeader {
+        animation: header infinite 3s;
+        text-align: center;
+        font-size: 400%;
+    }
+
+    .skillSlot {
+        animation: header infinite 3s;
+        text-align: center;
+        font-size: 400%;
+        background-image: linear-gradient(90deg, #00000000, #26113a, #00000000);
+        margin: 0%;
+        padding: 0%;
+        background-size: 100% auto;
+    }
+
+    .gradientText {
+        background-size: 100%;
+        color: rgb(213, 225, 247);
+        font-size: 300%;
+    }
+}
+
 @keyframes backgroundKeys {
 
     /*============ CENTER ============*/
