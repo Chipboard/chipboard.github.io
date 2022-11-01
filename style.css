@@ -31,7 +31,7 @@ h1 {
     background-attachment: fixed;
     background-color: #26113a;
     height: max-content;
-    animation: backgroundKeys infinite calc(200s * var(--backgroundScale));
+    animation: backgroundKeys infinite calc(200s * var(--backgroundScale)), blurIn ease-in-out 4s, backdropScrollOut ease-in-out 10s;
 }
 
 .skillSlot {
@@ -70,6 +70,38 @@ h1 {
         background-size: 100%;
         color: rgb(213, 225, 247);
         font-size: 300%;
+    }
+}
+
+@keyframes backdropScrollOut {
+    0% {
+        background-size: auto calc(256% * var(--backgroundScale));
+    }
+
+    100% {
+        background-size: auto calc(150% * var(--backgroundScale));
+    }
+}
+
+@keyframes skillFadeIn {
+    0% {
+        background-image: linear-gradient(90deg, #00000000, #26113a00, #00000000);
+        backdrop-filter: blur(0px);
+    }
+
+    100% {
+        background-image: linear-gradient(90deg, #00000000, #26113a, #00000000);
+        backdrop-filter: blur(1px);
+    }
+}
+
+@keyframes blurIn {
+    0% {
+        filter: blur(10px);
+    }
+
+    100% {
+        filter: blur(0px);
     }
 }
 
@@ -124,8 +156,6 @@ h1 {
         background-size: auto calc(150% * var(--backgroundScale));
     }
 }
-
-#centered {}
 
 @keyframes body {
     0% {
