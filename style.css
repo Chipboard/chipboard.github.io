@@ -1,3 +1,7 @@
+:root {
+    --backgroundScale: 1.0;
+}
+
 p {
     font-family: monospace;
     text-align: center;
@@ -27,7 +31,7 @@ h1 {
     background-attachment: fixed;
     background-color: #26113a;
     height: max-content;
-    animation: backgroundKeys infinite 120s;
+    animation: backgroundKeys infinite calc(200s * var(--backgroundScale));
 }
 
 .skillSlot {
@@ -42,6 +46,10 @@ h1 {
 
 /*============ MOBILE ============*/
 @media screen and (max-width: 800px) {
+    :root {
+        --backgroundScale: 2.0;
+    }
+
     .blinkHeader {
         animation: header infinite 3s;
         text-align: center;
@@ -71,49 +79,49 @@ h1 {
     0% {
         background-position-x: 50%;
         background-position-y: 50%;
-        background-size: auto 150%;
+        background-size: auto calc(150% * var(--backgroundScale));
     }
 
     /*============ RIGHT ============*/
     15% {
         background-position-x: 100%;
         background-position-y: 50%;
-        background-size: auto 150%;
+        background-size: auto calc(150% * var(--backgroundScale));
     }
 
     /*============ CENTER ============*/
     30% {
         background-position-x: 50%;
         background-position-y: 50%;
-        background-size: auto 150%;
+        background-size: auto calc(150% * var(--backgroundScale));
     }
 
     /*============ LEFT ============*/
     45% {
         background-position-x: 0%;
         background-position-y: 50%;
-        background-size: auto 150%;
+        background-size: auto calc(150% * var(--backgroundScale));
     }
 
     /*============ CENTER ============*/
     60% {
         background-position-x: 50%;
         background-position-y: 50%;
-        background-size: auto 150%;
+        background-size: auto calc(150% * var(--backgroundScale));
     }
 
     /*============ ZOOM ============*/
     80% {
         background-position-x: 50%;
         background-position-y: 50%;
-        background-size: auto 100%;
+        background-size: auto calc(100% * var(--backgroundScale));
     }
 
     /*============ CENTER ============*/
     100% {
         background-position-x: 50%;
         background-position-y: 50%;
-        background-size: auto 150%;
+        background-size: auto calc(150% * var(--backgroundScale));
     }
 }
 
