@@ -31,7 +31,7 @@ h1 {
     background-attachment: fixed;
     background-color: #26113a;
     height: max-content;
-    animation: backgroundKeys infinite calc(200s * var(--backgroundScale)), blurIn ease-in-out 4s, backdropScrollOut ease-in-out 10s;
+    animation: backgroundKeys infinite calc(200s * var(--backgroundScale)), blurIn ease-in-out 1s, backdropScrollOut ease-in-out 10s;
 }
 
 .skillSlot {
