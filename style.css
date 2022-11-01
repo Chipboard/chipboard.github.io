@@ -47,49 +47,49 @@ h1 {
     0% {
         background-position-x: 50%;
         background-position-y: 50%;
-        background-size: 150% 150%;
+        background-size: auto 150%;
     }
 
     /*============ RIGHT ============*/
     15% {
         background-position-x: 100%;
         background-position-y: 50%;
-        background-size: 150% 150%;
+        background-size: auto 150%;
     }
 
     /*============ CENTER ============*/
     30% {
         background-position-x: 50%;
         background-position-y: 50%;
-        background-size: 150% 150%;
+        background-size: auto 150%;
     }
 
     /*============ LEFT ============*/
     45% {
         background-position-x: 0%;
         background-position-y: 50%;
-        background-size: 150% 150%;
+        background-size: auto 150%;
     }
 
     /*============ CENTER ============*/
     60% {
         background-position-x: 50%;
         background-position-y: 50%;
-        background-size: 150% 150%;
+        background-size: auto 150%;
     }
 
     /*============ ZOOM ============*/
     80% {
         background-position-x: 50%;
         background-position-y: 50%;
-        background-size: 100% 100%;
+        background-size: auto 100%;
     }
 
     /*============ CENTER ============*/
     100% {
         background-position-x: 50%;
         background-position-y: 50%;
-        background-size: 150% 150%;
+        background-size: auto 150%;
     }
 }
 
