@@ -15,10 +15,8 @@ h1 {
 }
 
 .gradientText {
-    background-image: linear-gradient(45deg, rgb(213, 225, 247), rgb(81, 99, 134));
+    color: rgb(213, 225, 247);
     background-size: 100%;
-    background-clip: text;
-    color: transparent;
     font-size: 300%;
 }
 
