@@ -27,6 +27,7 @@ h1 {
     background-repeat: repeat;
     background-size: 150% 150%;
     background-attachment: fixed;
+    background-color: #26113a;
     height: max-content;
     animation: backgroundKeys infinite 120s;
 }
