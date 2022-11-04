@@ -31,10 +31,11 @@ h1 {
 }
 
 .showcaseImage {
-    height: 20vh;
-    width: auto;
-    margin: 1vh 1vh;
-    margin-top: 1vh;
+    height: 10vw;
+    width: 20vw;
+    margin: 0.25vw 0.25vw;
+    margin-top: 0.25vw;
+    object-fit: cover;
 
     border: 5px solid #516386;
 }
@@ -58,6 +59,8 @@ h1 {
     background-color: #26113a;
     height: max-content;
     animation: backgroundKeys infinite calc(200s * var(--backgroundScale)), blurIn ease-in-out 1s, backdropScrollOut ease-in-out 10s;
+    pointer-events: none;
+    user-select: none;
 }
 
 .skillSlot {
@@ -74,6 +77,16 @@ h1 {
 @media screen and (max-width: 1920px) {
     :root {
         --backgroundScale: 1.5;
+    }
+
+    .showcaseImage {
+        height: 10vw;
+        width: 20vw;
+        margin: 0.2vw 0.2vw;
+        margin-top: 0.2vw;
+        object-fit: cover;
+
+        border: 5px solid #516386;
     }
 }
 
@@ -103,6 +116,22 @@ h1 {
         background-size: 100%;
         color: rgb(213, 225, 247);
         font-size: 300%;
+    }
+
+    .showcaseImage {
+        height: 10vw;
+        width: 20vw;
+        margin: 0.2vw 0.2vw;
+        margin-top: 0.2vw;
+        object-fit: cover;
+
+        border: 5px solid #516386;
+    }
+
+    .gallery {
+        margin-left: 2vw;
+        margin-right: 2vw;
+        align-items: center;
     }
 }
 
