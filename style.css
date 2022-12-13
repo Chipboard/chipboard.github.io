@@ -40,6 +40,16 @@ h1 {
     border: 5px solid #516386;
 }
 
+.h_iframe iframe {
+    width: 22vw;
+    height: 22vw;
+}
+
+.h_iframe {
+    height: 100%;
+    width: 100%;
+}
+
 .descriptionText {
     color: #d5e1f7;
     background-size: 100%;
