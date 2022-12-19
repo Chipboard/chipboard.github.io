@@ -61,6 +61,19 @@ h1 {
     background-image: linear-gradient(90deg, #00000000, #516386, #00000000);
 }
 
+.contactText {
+    color: #d5e1f7;
+    background-size: 100%;
+    font-size: 2vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 1vw;
+    background-image: linear-gradient(90deg, #516386, #00000000, #00000000);
+    text-align: left;
+}
+
 #body {
     background: url('background.jpg');
     background-repeat: repeat;
