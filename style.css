@@ -82,7 +82,7 @@ h1 {
     background-color: #26113a;
     height: max-content;
     animation: backgroundKeys infinite calc(200s * var(--backgroundScale)), blurIn ease-in-out 1s, backdropScrollOut ease-in-out 10s;
-    user-select: none;
+    /*user-select: none;*/
 }
 
 .skillSlot {
