@@ -1,202 +1,217 @@
-<!DOCTYPE html>
-<html>
-
-<!-- ======== TAB TITLE ======== -->
-
+<!doctype html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Chipboard's Portfolio</title>
-    <link rel="icon" href="Logo.png">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chipboard — Graphics, simulation & engine systems</title>
+  <meta name="description" content="Chipboard builds real-time graphics, simulation, procedural tools, and game-engine systems—usually by pushing software beyond what it was designed to do.">
+  <meta name="theme-color" content="#090d10">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Chipboard — Systems that weren’t supposed to exist">
+  <meta property="og:description" content="Real-time graphics, simulation, game engines, procedural systems, and experimental software.">
+  <meta property="og:url" content="https://chipboard.github.io/">
+  <meta property="og:image" content="https://chipboard.github.io/assets/og.png">
+  <meta property="og:image:width" content="1536">
+  <meta property="og:image:height" content="1024">
+  <meta property="og:image:alt" content="Chipboard — systems that weren’t supposed to exist">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://chipboard.github.io/assets/og.png">
+  <link rel="canonical" href="https://chipboard.github.io/">
+  <link rel="icon" href="Logo.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="project-data.js" defer></script>
+  <script src="main.js" defer></script>
 </head>
-
-<!-- ======== PAGE BODY ======== -->
-
-<body id="body">
-    <div class="intro">
-        <header>
-            <h1 class="blinkHeader" id="header">Chipboard's Portfolio</h1>
-            <p class="descriptionText">A collection of skills and highlights.</p>
-            <p class="contactText">
-                Email: programmerrathey@gmail.com <br>
-                Fiverr: https://www.fiverr.com/bricktronic <br>
-                Discord: chipboard <br>
-                Linkedin: https://www.linkedin.com/in/richard-athey-11889422a/ </p>
-
-        </header>
-    </div>
-</body>
-
-<body id="body">
-    <div class="intro">
-        <header>
-            <h1 class="blinkHeader" id="header"> &nbsp </h1>
-        </header>
-    </div>
-</body>
-
 <body>
-    <h1 class="skillSlot">Certificates</h1>
-    <p class="descriptionText">Certificates I've earned.</p>
-    <div class="gallery">
-        <img src="images/Cert.png" class="showcaseImage">
-    </div>
-</body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-<body id="body">
-    <div class="intro">
-        <header>
-            <h1 class="blinkHeader" id="header"> &nbsp </h1>
-        </header>
-    </div>
-</body>
+  <header class="site-header" data-header>
+    <a class="brand" href="#top" aria-label="Chipboard, home">
+      <span class="brand-mark" aria-hidden="true">C</span>
+      <span>CHIPBOARD</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span>Menu</span><i aria-hidden="true"></i>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <a href="#work">Featured</a>
+      <a href="#archive">Archive</a>
+      <a href="#about">About</a>
+      <a class="nav-contact" href="#contact">Start a conversation <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
 
-<body>
-    <h1 class="skillSlot">Public Contributed Projects</h1>
-    <p class="descriptionText">Public projects I've contributed to (C#, C++, Art)</p>
-    <div class="gallery">
-        <iframe src="https://itch.io/embed/1936963" width="552" height="167" frameborder="0"><a href="https://dimitris-gkikas.itch.io/endling">Endling II: Mnemosyne Unit-01 by Dimitris Gkikas</a></iframe>
-        <div class="h_iframe">
-            <iframe src="https://store.steampowered.com/widget/2291780/" frameborder="0"></iframe>
-            <iframe src="https://store.steampowered.com/widget/2056560/" frameborder="0"></iframe>
-            <iframe src="https://store.steampowered.com/widget/719890/" frameborder="0"></iframe>
-            <iframe src="https://store.steampowered.com/widget/1718870/" frameborder="0"></iframe>
+  <main id="main">
+    <section id="top" class="hero section-shell">
+      <div class="hero-media reveal" data-delay="1">
+        <img src="assets/beamng-sky.jpg" alt="BeamNG.Sky volumetric cloud layers above a coastal BeamNG.drive landscape" width="2048" height="1152">
+        <div class="hero-media-label"><span>BEAMNG.SKY</span><span>IN-ENGINE CAPTURE / 01</span></div>
+        <a class="hero-media-link" href="projects/beamng-sky/">Explore the atmosphere system <span aria-hidden="true">↗</span></a>
+      </div>
+
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> Programmer · Technical creator</p>
+        <h1>I make engines do things they <em>weren’t built to do.</em></h1>
+        <p class="hero-lede">Real-time graphics, simulation, physics, procedural tools, and experimental software—built by taking systems apart and finding a way through.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">See featured work <span aria-hidden="true">↓</span></a>
+          <a class="button button-quiet" href="#archive">Open the archive <span aria-hidden="true">↘</span></a>
+          <a class="text-link" href="https://github.com/Chipboard" target="_blank" rel="noreferrer">GitHub ↗</a>
         </div>
+      </div>
+
+      <div class="hero-proof" aria-label="Areas of work">
+        <span><b>01</b> Graphics R&amp;D</span>
+        <span><b>02</b> Simulation</span>
+        <span><b>03</b> Engine experiments</span>
+      </div>
+      <div class="hero-index" aria-hidden="true">FIELD NOTES / 2026</div>
+    </section>
+
+    <div class="discipline-rail" aria-label="Technical disciplines">
+      <div>
+        <span>Real-time graphics</span><i></i><span>Simulation</span><i></i><span>Engine systems</span><i></i><span>Procedural tools</span><i></i><span>Physics</span><i></i><span>Audio synthesis</span>
+      </div>
     </div>
-</body>
 
-<body id="body">
-    <div class="intro">
-        <header>
-            <h1 class="blinkHeader" id="header"> &nbsp </h1>
-        </header>
-    </div>
-</body>
-
-<body>
-    <h1 class="skillSlot">Released Projects</h1>
-    <p class="descriptionText">Public projects I've released.</p>
-    <div class="gallery">
-        <iframe frameborder="0" src="https://itch.io/embed/1869987" width="552" height="167"><a href="https://chipboard.itch.io/cosmic-fallout">Cosmic Fallout by Chipboard</a></iframe>
-        <iframe frameborder="0" src="https://itch.io/embed/295376" width="552" height="167"><a href="https://chipboard.itch.io/geometroids">Geometroids by Chipboard</a></iframe>
-    </div>
-</body>
-
-<body id="body">
-    <div class="intro">
-        <header>
-            <h1 class="blinkHeader" id="header"> &nbsp </h1>
-        </header>
-    </div>
-</body>
-
-<body>
-    <h1 class="skillSlot">C# Programming</h1>
-    <p class="descriptionText">Various video clips of prototypes and projects I've written. <br>
-        Each project has taught me various skills and solutions to solve many different types of problems.</p>
-    <div class="gallery">
-        <div class="h_iframe">
-            <!-- DotBox App -->
-            <iframe src="https://www.youtube.com/embed/4sYrMCPOxpA" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-
-            <!-- Snake Showcase -->
-            <iframe src="https://www.youtube.com/embed/4u_lxAB6iGs" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-
-            <!-- Web Sim -->
-            <iframe src="https://www.youtube.com/embed/OukxpNRXASM" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-
-            <!-- Sand Sim -->
-            <iframe src="https://www.youtube.com/embed/DsNMvN0MICI" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-
-            <!-- S.R.S.S -->
-            <iframe src="https://www.youtube.com/embed/g_NozRhFW30" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-
-            <!-- Audio Viz -->
-            <iframe src="https://www.youtube.com/embed/VKEzb3ORm5Y" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-
-            <!-- Buoyancy -->
-            <iframe src="https://www.youtube.com/embed/D_gYqEeNkRE" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-
-            <!-- Threaded Voxels -->
-            <iframe src="https://www.youtube.com/embed/Yl4a-1FtXqQ" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-
-            <!-- Threaded Cloth -->
-            <iframe src="https://www.youtube.com/embed/Jpsp65Wr-tk" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-
-            <!-- Lobby Relay Terrain -->
-            <iframe src="https://www.youtube.com/embed/5Ou-O2dpTqc" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-
-            <!-- Cloth Body Interaction -->
-            <iframe src="https://www.youtube.com/embed/UGPHOqouk-A" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-
-            <!-- Stag Fight -->
-            <iframe src="https://www.youtube.com/embed/lKoINokJ-90" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-
-            <!-- Falling Sand -->
-            <iframe src="https://www.youtube.com/embed/fTMYQP9Rea4" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-
-            <!-- Anomalous -->
-            <iframe src="https://www.youtube.com/embed/XobjAQSGnLc" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-
-            <!-- Butter Duck -->
-            <iframe src="https://www.youtube.com/embed/e7f9kh0VXPE" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+    <section id="work" class="work section-shell section-block" aria-labelledby="work-title">
+      <div class="section-heading split-heading reveal">
+        <div>
+          <p class="eyebrow"><span></span> Featured systems</p>
+          <h2 id="work-title">Experiments with<br>real technical weight.</h2>
         </div>
-    </div>
-</body>
+        <p>Graphics, simulation, audio, and engine projects organized around what was difficult—not around which language happened to be used.</p>
+      </div>
+      <div id="project-grid" class="project-grid" aria-live="polite"></div>
+    </section>
 
-<body id="body">
-    <div class="intro">
-        <header>
-            <h1 class="blinkHeader" id="header"> &nbsp </h1>
-        </header>
-    </div>
-</body>
+    <section id="systems" class="systems section-shell section-block" aria-labelledby="systems-title">
+      <div class="section-heading split-heading reveal">
+        <div>
+          <p class="eyebrow"><span></span> Technical range</p>
+          <h2 id="systems-title">The interesting part<br>is making it real.</h2>
+        </div>
+        <p>I learn systems by building ambitious things inside them—then keep digging until the result is usable, fast, and shippable.</p>
+      </div>
+      <div class="capability-grid">
+        <article class="capability reveal"><span>01</span><h3>Volumetric rendering</h3><p>Layered atmosphere, cloud lighting, self-shadowing, fog, and light transport experiments.</p></article>
+        <article class="capability reveal"><span>02</span><h3>Runtime generation</h3><p>Geometry, assets, and world state assembled while the engine is running.</p></article>
+        <article class="capability reveal"><span>03</span><h3>Physics systems</h3><p>Interactive materials, vehicle coupling, simulation prototypes, and physical tools.</p></article>
+        <article class="capability reveal"><span>04</span><h3>Shader development</h3><p>Post-processing, voxelization, projections, stylization, lighting, and screen-space effects.</p></article>
+        <article class="capability reveal"><span>05</span><h3>Engine integration</h3><p>Working around constraints, finding unconventional extension points, and wiring systems together.</p></article>
+        <article class="capability reveal"><span>06</span><h3>Performance work</h3><p>Designing ambitious real-time effects around a strict frame-time budget.</p></article>
+        <article class="capability reveal"><span>07</span><h3>Tool development</h3><p>Purpose-built controls, technical workflows, presets, and reusable systems.</p></article>
+        <article class="capability reveal"><span>08</span><h3>Audio synthesis</h3><p>Procedural approaches to generating responsive synthetic engine sound.</p></article>
+      </div>
+    </section>
 
-<body>
-    <h1 class="skillSlot">3D Modeling</h1>
-    <p class="descriptionText">Various 3D models I've created.</p>
-    <div class="gallery">
-        <img src="images/falcon_model.jpg" class="showcaseImage">
-        <img src="images/zero_model.jpg" class="showcaseImage">
-        <img src="images/zero_model_1.jpg" class="showcaseImage">
-        <img src="images/zero_model_2.jpg" class="showcaseImage">
-        <img src="images/ghost_0.jpg" class="showcaseImage">
-        <img src="images/ghost_1.jpg" class="showcaseImage">
-        <img src="images/nplayer_0.jpg" class="showcaseImage">
-        <img src="images/nplayer_1.jpg" class="showcaseImage">
-    </div>
-    <p class="gradientText">More Coming Soon!</p>
-</body>
+    <section class="public-work section-block" aria-labelledby="public-title">
+      <div class="section-shell">
+        <div class="section-heading split-heading reveal">
+          <div>
+            <p class="eyebrow"><span></span> Public contributed projects</p>
+            <h2 id="public-title">Work built<br>with other teams.</h2>
+          </div>
+          <p>These credits were part of the original portfolio and remain here as first-class work: public contributions across C#, C++, and art.</p>
+        </div>
+        <div class="embed-grid reveal">
+          <a class="contribution-card" href="https://dimitris-gkikas.itch.io/endling" target="_blank" rel="noreferrer">
+            <span>ITCH.IO CONTRIBUTION / C# · C++ · ART</span>
+            <strong>Endling II:<br>Mnemosyne Unit-01</strong>
+            <i>View public project ↗</i>
+          </a>
+          <div class="embed-shell"><iframe src="https://store.steampowered.com/widget/2291780/" title="VR Fishtank on Steam" loading="lazy"></iframe></div>
+          <div class="embed-shell"><iframe src="https://store.steampowered.com/widget/2056560/" title="Rock Life: The Rock Simulator on Steam" loading="lazy"></iframe></div>
+          <div class="embed-shell"><iframe src="https://store.steampowered.com/widget/719890/" title="Beasts of Bermuda on Steam" loading="lazy"></iframe></div>
+          <div class="embed-shell"><iframe src="https://store.steampowered.com/widget/1718870/" title="Spaceflight Simulator on Steam" loading="lazy"></iframe></div>
+        </div>
+      </div>
+    </section>
 
+    <section class="released section-shell section-block" aria-labelledby="released-title">
+      <div class="section-heading split-heading reveal">
+        <div>
+          <p class="eyebrow"><span></span> Released projects</p>
+          <h2 id="released-title">Things I shipped.</h2>
+        </div>
+        <p>Small games and experiments that made it out of the lab and into players’ hands.</p>
+      </div>
+      <div class="release-embeds reveal">
+        <div class="embed-shell embed-itch"><iframe src="https://itch.io/embed/1869987" title="Cosmic Fallout on itch.io" width="552" height="167" loading="lazy"><a href="https://chipboard.itch.io/cosmic-fallout">Cosmic Fallout by Chipboard</a></iframe></div>
+        <div class="embed-shell embed-itch"><iframe src="https://itch.io/embed/295376" title="Geometroids on itch.io" width="552" height="167" loading="lazy"><a href="https://chipboard.itch.io/geometroids">Geometroids by Chipboard</a></iframe></div>
+      </div>
+    </section>
+
+    <section id="archive" class="prototype-archive section-block" aria-labelledby="archive-title">
+      <div class="section-shell">
+        <div class="archive-heading reveal">
+          <div>
+            <p class="eyebrow"><span></span> Prototype archive / 15 videos</p>
+            <h2 id="archive-title">The trail of<br>working experiments.</h2>
+          </div>
+          <p>Threaded voxels, cloth, buoyancy, sand, audio, procedural terrain, games, and tools. These are not polished case studies; they are evidence of ideas made tangible.</p>
+        </div>
+        <div id="video-grid" class="video-grid"></div>
+      </div>
+    </section>
+
+    <section class="model-archive section-shell section-block" aria-labelledby="models-title">
+      <div class="section-heading split-heading reveal">
+        <div>
+          <p class="eyebrow"><span></span> 3D work / original gallery</p>
+          <h2 id="models-title">Built in code.<br>Shaped in 3D.</h2>
+        </div>
+        <p>The original modeling gallery, restored as a visual archive rather than reduced to a footnote.</p>
+      </div>
+      <div class="model-grid reveal">
+        <figure class="model-wide"><img src="images/falcon_model.jpg" alt="3D model of a sci-fi falcon-like spacecraft" loading="lazy"><figcaption>Falcon study / hard-surface model</figcaption></figure>
+        <figure><img src="images/zero_model.jpg" alt="Zero character 3D model, front view" loading="lazy"><figcaption>Zero / character study 01</figcaption></figure>
+        <figure><img src="images/zero_model_1.jpg" alt="Zero character 3D model, alternate view" loading="lazy"><figcaption>Zero / character study 02</figcaption></figure>
+        <figure><img src="images/zero_model_2.jpg" alt="Zero character 3D model detail" loading="lazy"><figcaption>Zero / character study 03</figcaption></figure>
+        <figure class="model-tall"><img src="images/ghost_0.jpg" alt="Ghost character 3D model" loading="lazy"><figcaption>Ghost / character study 01</figcaption></figure>
+        <figure><img src="images/ghost_1.jpg" alt="Ghost character 3D model alternate view" loading="lazy"><figcaption>Ghost / character study 02</figcaption></figure>
+        <figure class="model-wide"><img src="images/nplayer_0.jpg" alt="NPlayer character 3D model" loading="lazy"><figcaption>NPlayer / character study 01</figcaption></figure>
+        <figure><img src="images/nplayer_1.jpg" alt="NPlayer character 3D model alternate view" loading="lazy"><figcaption>NPlayer / character study 02</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="credential section-shell section-block" aria-labelledby="credential-title">
+      <div class="credential-card reveal">
+        <img src="images/Cert.png" alt="Programming certificate earned by Chipboard" loading="lazy">
+        <div><p class="eyebrow"><span></span> Certificate archive</p><h2 id="credential-title">Formal proof.<br>Informal education.</h2><p>One certificate, alongside years of self-directed learning through shipped work, engine experiments, and difficult prototypes.</p></div>
+      </div>
+    </section>
+
+    <section id="about" class="about section-shell section-block">
+      <div class="about-index" aria-hidden="true">SELF<br>TAUGHT<br>/ ALWAYS<br>BUILDING</div>
+      <div class="about-copy reveal">
+        <p class="eyebrow"><span></span> About</p>
+        <h2>Curiosity first.<br>Documentation second.<br>Working system third.</h2>
+        <p>I’m a self-taught programmer and technical creator. I learn by choosing projects that are slightly unreasonable, taking systems apart, and staying with the problem until something tangible exists.</p>
+        <p>The result is a body of work spanning graphics research, engine experimentation, simulation, modding, procedural tools, games, and shipped software.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section-shell section-block" aria-labelledby="contact-title">
+      <div class="contact-card reveal">
+        <p class="eyebrow"><span></span> Have a difficult system?</p>
+        <h2 id="contact-title">Let’s build the part<br>that sounds impossible.</h2>
+        <p>I’m interested in game and engine development, graphics programming, simulation, technical tooling, contract work, and technically minded collaborations.</p>
+        <a class="button button-light" href="mailto:programmerrathey@gmail.com">programmerrathey@gmail.com <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="contact-links reveal">
+        <a href="https://github.com/Chipboard" target="_blank" rel="noreferrer"><span>GitHub</span><small>Code &amp; repositories</small><i>↗</i></a>
+        <a href="https://www.linkedin.com/in/richard-athey-11889422a/" target="_blank" rel="noreferrer"><span>LinkedIn</span><small>Professional profile</small><i>↗</i></a>
+        <a href="https://www.fiverr.com/bricktronic" target="_blank" rel="noreferrer"><span>Fiverr</span><small>Contract work</small><i>↗</i></a>
+        <button type="button" data-copy="chipboard"><span>Discord</span><small data-copy-label>Copy “chipboard”</small><i>+</i></button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell">
+    <span>© <span data-year></span> CHIPBOARD</span>
+    <span>Graphics · Simulation · Systems</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+</body>
 </html>
